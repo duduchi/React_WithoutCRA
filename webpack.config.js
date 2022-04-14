@@ -10,6 +10,8 @@ module.exports = {
     filename: "bundle.[hash].js",
   },
 
+  // loader란? webPack이 관리하는 비자바스크립트 파일을 webPack이 이해할 수 있게 해주는 역할
+
   module: {
     rules: [
       {
